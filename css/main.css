@@ -54,3 +54,17 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
+@media (max-width: 767px) {
+    .container .btn-holder {
+        display: flex;
+    }
+    .container button {
+        padding: 5px 8px;
+        /* background-color: rgb(121, 118, 118); */
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
